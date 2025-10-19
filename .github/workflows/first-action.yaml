@@ -1,0 +1,16 @@
+# My first workflow :
+name: My first github action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: action/Checkout@v4
+
+      - name: Print Hello
+        runs: echo "Hello Git, My github action is working "
