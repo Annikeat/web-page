@@ -13,4 +13,4 @@ jobs:
         uses: action/Checkout@v4
 
       - name: Print Hello
-        runs: echo "Hello Git, My github action is working "
+        run: echo "Hello Git, My github action is working "
