@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-            aniketjokre/ajfoodie:${{ env.TAG }}
-            aniketjokre/ajfoodie:latest
+            aniketjok/ajfoodie:${{ env.TAG }}
+            aniketjok/ajfoodie:latest
